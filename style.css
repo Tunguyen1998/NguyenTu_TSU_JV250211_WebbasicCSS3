@@ -1,0 +1,44 @@
+.head{
+    background-color: rgb(128, 128, 220);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  li {
+     display: inline;
+  }
+  li a {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  img{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 40px;
+    position: relative;
+
+  }
+  .body p{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+  }
+  .foot{
+    background-color:rgb(210, 220, 228);
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+  }
