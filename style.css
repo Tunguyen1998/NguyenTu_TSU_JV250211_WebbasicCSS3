@@ -1,26 +1,129 @@
-div{
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    padding: 10px;
-    margin: 20px;
-    border: 2px solid rgba(220, 200, 200,0.2);
-    border-radius: 10px;
-    line-height: 30px;
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
 }
-h1{
-    text-align: center;
-}
-input{
-    width: 280px;
-    padding: 5px;
-    border: 1px solid rgb(240, 234, 224);
-    border-radius: 5px;
-}
-input[type=submit]{
-    background-color: rgb(141, 141, 237);
-    color: white;
-    font-size: large;
-    margin-top: 10px;
 
+h1{
+    border-left: 15px solid orange;
+    font-size: 50px;
+    margin-left: 25px;
+    padding-left: 25px;
+    
+}
+.news1{
+    width: 680px;
+    margin-left: 25PX;
+    
+}
+.news1 img{
+    width: 300px;
+    margin-top: 25px;
+    
+}
+.news1 h2{
+    font-size: 40px;
+}
+.news1 p{
+    color: rgb(171, 113, 113);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    
+}
+.other1{
+    width: 680px;
+    margin-left: 25PX;
+
+}
+.other1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+hr{
+    width: 700px;
+    height: 1px;
+    background-color: rgba(13, 14, 14,0.1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.news2{
+    width: 680px;
+    margin-left: 25PX;
+
+}
+.news2 img{
+    width: 500px;
+    margin-top: 25px;
+    position: relative;
+    opacity: 0.8;
+}
+.news2 p{
+    width: 500px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1070px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.other2{
+    width: 680px;
+    margin-left: 25PX;
+
+}
+.other2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.news3{
+    background-color: rgb(224, 231, 231);
+    width: 1100px;
+    height: 400px;
+    padding: 15px;
+    line-height: 35px;
+    margin-left: 15px; 
+    
+}
+.news3 img{
+    
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 350px;
+
+
+}
+
+.news3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.news3 p{
+    margin-left: 500px;
+    
+}
+.bimat a{
+    font-weight: bold;
+    font-size: 30px;
+}
+.content{
+    font-size: 20px;
+}
+.home a{
+    color: rgb(194, 170, 170);
+    
+    
+}
+.home{
+    color: rgb(194, 170, 170);
+      
 }
